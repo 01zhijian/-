@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5eb99067-2c82-4e1f-85d2-65683c2ae771}</ProjectGuid>
-    <RootNamespace>软件体系结构</RootNamespace>
+    <ProjectGuid>{7c5b23f9-b7c2-4884-991d-91901263f4a4}</ProjectGuid>
+    <RootNamespace>C标准库</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -135,11 +135,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="软件体系结构.cpp" />
+    <ClCompile Include="C++标准库.cpp" />
+    <ClCompile Include="STL 体系结构基础.cpp" />
+    <ClCompile Include="分配器.cpp" />
+    <ClCompile Include="容器的分类与测试.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Clean Code Principles.h" />
-    <ClInclude Include="软件·体系结构.h" />
+    <ClInclude Include="STL 体系结构基础.h" />
+    <ClInclude Include="分配器.h" />
+    <ClInclude Include="基本认识.h" />
+    <ClInclude Include="容器的分类与测试.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

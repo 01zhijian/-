@@ -15,15 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="软件体系结构.cpp">
+    <ClCompile Include="C++标准库.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STL 体系结构基础.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="容器的分类与测试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分配器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="软件·体系结构.h">
+    <ClInclude Include="基本认识.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Clean Code Principles.h">
+    <ClInclude Include="STL 体系结构基础.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="容器的分类与测试.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="分配器.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

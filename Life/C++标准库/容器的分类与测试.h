@@ -1,8 +1,12 @@
 #pragma once
 
 /* ------------------------------ 学习笔记 ------------------------------ *
-Ctrl + G：快速定位到指定行
-Ctrl + Shift + A：新建项
+顺序式容器（Sequence Containers）
+关联式容器（Associative Containers）
+
 
 
 */
+
+void test_array();
+
