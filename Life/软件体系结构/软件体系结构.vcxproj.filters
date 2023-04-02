@@ -18,12 +18,21 @@
     <ClCompile Include="软件体系结构.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="面向对象编程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="软件·体系结构.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Clean Code Principles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programming Paradigms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="面向对象编程.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

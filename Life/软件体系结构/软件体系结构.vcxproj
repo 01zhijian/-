@@ -136,10 +136,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="软件体系结构.cpp" />
+    <ClCompile Include="面向对象编程.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clean Code Principles.h" />
+    <ClInclude Include="Programming Paradigms.h" />
     <ClInclude Include="软件·体系结构.h" />
+    <ClInclude Include="面向对象编程.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
