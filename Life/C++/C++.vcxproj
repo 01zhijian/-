@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5eb99067-2c82-4e1f-85d2-65683c2ae771}</ProjectGuid>
-    <RootNamespace>软件体系结构</RootNamespace>
+    <ProjectGuid>{fc45ab93-72d3-4c12-8d3b-a8542a135766}</ProjectGuid>
+    <RootNamespace>C</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -112,6 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,6 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,17 +137,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="设计模式.cpp" />
-    <ClCompile Include="软件体系结构.cpp" />
-    <ClCompile Include="面向对象编程.cpp" />
+    <ClCompile Include="C++.cpp" />
+    <ClCompile Include="异常.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Clean Code Principles.h" />
-    <ClInclude Include="Programming Paradigms.h" />
-    <ClInclude Include="设计模式.h" />
-    <ClInclude Include="软件·体系结构.h" />
-    <ClInclude Include="软件设计原则.h" />
-    <ClInclude Include="面向对象编程.h" />
+    <ClInclude Include="异常.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

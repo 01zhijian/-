@@ -99,7 +99,7 @@ private:
 	double m_BasicSalary;
 };
 
-int main()
+int main_面向对象编程()
 {
 	CAdminEmployee admin{ "a管理员 01zhijian", CAdminEmployee::Position::ONE };
 	CServiceEmployee service{ "b服务员 01zhijian", 3000 };

@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int main0()
+int main标准库()
 {
     std::cout << "Hello World!\n";
     return 0;
