@@ -44,7 +44,7 @@ private:
     int m_data[3]{};
 };
 
-int main()
+int main_C()
 {
     cout << "Enter to number: ";
     double x{};

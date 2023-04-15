@@ -136,11 +136,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++标准库.cpp" />
+    <ClCompile Include="MyList.cpp" />
     <ClCompile Include="STL 体系结构基础.cpp" />
     <ClCompile Include="分配器.cpp" />
     <ClCompile Include="容器的分类与测试.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyList.h" />
     <ClInclude Include="STL 体系结构基础.h" />
     <ClInclude Include="分配器.h" />
     <ClInclude Include="基本认识.h" />

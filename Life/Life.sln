@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++标准库", "C++标准�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++", "C++\C++.vcxproj", "{FC45AB93-72D3-4C12-8D3B-A8542A135766}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "界面开发", "界面开发\界面开发.vcxproj", "{FE3AE3A9-787A-41E7-87C5-372398D595F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -53,6 +55,14 @@ Global
 		{FC45AB93-72D3-4C12-8D3B-A8542A135766}.Release|x64.Build.0 = Release|x64
 		{FC45AB93-72D3-4C12-8D3B-A8542A135766}.Release|x86.ActiveCfg = Release|Win32
 		{FC45AB93-72D3-4C12-8D3B-A8542A135766}.Release|x86.Build.0 = Release|Win32
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Debug|x64.ActiveCfg = Debug|x64
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Debug|x64.Build.0 = Debug|x64
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Debug|x86.Build.0 = Debug|Win32
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Release|x64.ActiveCfg = Release|x64
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Release|x64.Build.0 = Release|x64
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Release|x86.ActiveCfg = Release|Win32
+		{FE3AE3A9-787A-41E7-87C5-372398D595F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

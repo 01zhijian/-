@@ -21,9 +21,27 @@
     <ClCompile Include="异常.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\C++标准库\Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="异常.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\C++标准库\Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
