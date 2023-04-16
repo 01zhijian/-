@@ -1,8 +1,15 @@
 #include "MainWindow.h"
+#include "Sokoban.h"
+
+using namespace std;
+
 
 int main()
 {
-    MainWindow m;
+    Sokoban game;
+    game.Run();
+
     return 0;
 }
+
 
