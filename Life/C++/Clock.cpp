@@ -48,7 +48,7 @@ void Clock::show()
 
 
 
-int main()
+int main_Clock()
 {
 	wchar_t* str = nullptr;
 

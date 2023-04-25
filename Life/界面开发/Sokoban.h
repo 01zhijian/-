@@ -41,7 +41,7 @@ public:
     * 启动游戏
     */
     void Run();
-
+    
 private:
     /*
     * 控制人的移动

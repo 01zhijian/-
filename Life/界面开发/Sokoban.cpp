@@ -90,7 +90,7 @@ void Sokoban::Run()
         if (IsGameOver())
         {
             GameOverComplete(&bgImage);
-            _gettch();
+            wint_t ch = _gettch();
             break;
         }
     }

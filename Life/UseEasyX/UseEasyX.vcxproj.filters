@@ -15,45 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++.cpp">
+    <ClCompile Include="UseEasyX.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="异常.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\C++标准库\Base.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MyString.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Clock.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="友元.cpp">
+    <ClCompile Include="C20230418.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="异常.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\C++标准库\Base.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MyString.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Clock.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="文件.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="友元.h">
+    <ClInclude Include="C20230418.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
