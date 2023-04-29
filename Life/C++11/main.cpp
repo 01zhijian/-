@@ -98,13 +98,118 @@ void TestAuto()
 //auto _b = (b);\
 //(_a > _b) ? _a : _b;)
 
+void action(int& val)
+{
+    cout << val << endl;
+}
+
+// 基于范围的 for 循环
+#include <algorithm>
+void TestRangeFor()
+{
+    // 普通 for 循环
+    int arr[]{ 1,2,3,4,5 };
+    for (int* p = arr; p < arr + sizeof(arr) / sizeof(arr[0]); ++p)
+    {
+        cout << *p << endl;
+    }
+
+    // 基于 for_each 的模板函数
+    for_each(arr, arr + sizeof(arr) / sizeof(arr[0]), action);
+
+    // 基于范围的 for 循环
+    for (auto val : arr)
+    {
+        cout << val << endl;
+    }
+
+    // 想要使用基于范围的 for 循环，必须依赖于一些条件：首先，就是 for 循环的范围是可以确定的。其次，要求迭代的对象实现了 ++ 和 == 等操作符
+}
+
+// 原子类型
+#include <atomic>
+#include <thread>
+
+atomic_llong total{ 0 };
+//atomic_llong total2{ total }; 不允许拷贝构造、移动构造、operator= 等，以防止发生意外
+
+void func()
+{
+    for (long long i = 0; i < 100000000LL; ++i)
+    {
+        total += i;
+    }
+}
+
+void TestAtomic()
+{
+    thread t1{ func };
+    thread t2{ func };
+
+    t1.join();
+    t2.join();
+
+    cout << "total = " << total << endl;
+}
+
+
+class TypeId
+{
+
+};
+
+void TestTypeId()
+{
+    TypeId a;
+    int b = 0;
+
+    cout << typeid(a).name() << endl;
+    cout << typeid(b).name() << endl;
+}
+
+// nullptr 空值
+// 所有定义的 nullptr_t 类型都是等价的，行为也是完全一致
+// nullptr_t 可以隐式转换成任意一个指针类型
+// nullptr_t 类型数据不能转换为非指针类型，即使用 reinterpret_cast<nullptr_t>() 的方式也是不可以的
+// nullptr_t 类型数据不适用于算术运算表达式
+// nullptr_t 类型数据仅适用于关系运算符表达式，但仅能于 nullptr_t 类型数据或指针类型数据进行比较
+void TestNullptr()
+{
+    nullptr_t ptr = nullptr;
+    
+
+    // C++11 版本不允许将空指针转换为布尔类型或整型，如果允许，说明编译器版本不够新
+    // nullptr 类型数据与 void* 占用的内存空间大小相同
+    // 不要对 nullptr 做取地址操作
+}
+
+// lambda 表达式
+void TestLambda()
+{
+    [] {};
+    int a = 3;
+    int b = 4;
+    [=] {return a + b; };
+    auto func1 = [&](int c) {b = a + c; };
+    auto func2 = [=, &b](int c) {return b += a + c; };
+
+    // 直观的来讲，lambda 函数与普通函数可见的最大区别之一，就是 lambda 函数可以通过捕捉列表访问一些上下文中的数据
+    // 捕获列表不允许重复传递
+    // 仅能捕获父作用域的自动变量，捕获任何非此作用域或者是非自动变量（如静态变量等）都会导致编译器报错
+}
+
+
 int main()
 {
     //TempFun(1, 2);
     //TempFun("11234", 2);
     //InitializerFun({ 1,2,3,4,5 });
     //People people = { { "lvjun", boy } };
-    TestAuto();
+    //TestAuto();
+    //TestRangeFor();
+    //TestAtomic();
+    //TestTypeId();
+    TestNullptr();
     
     return 0;
 };
