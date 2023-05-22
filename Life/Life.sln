@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++11", "C++11\C++11.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多线程", "多线程\多线程.vcxproj", "{4FA2BF03-0125-4D68-8E2A-E633CEE4FE53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据结构与算法分析", "数据结构与算法分析\数据结构与算法分析.vcxproj", "{C50FA3BD-91F3-4121-A531-F25C23E006CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -103,6 +105,14 @@ Global
 		{4FA2BF03-0125-4D68-8E2A-E633CEE4FE53}.Release|x64.Build.0 = Release|x64
 		{4FA2BF03-0125-4D68-8E2A-E633CEE4FE53}.Release|x86.ActiveCfg = Release|Win32
 		{4FA2BF03-0125-4D68-8E2A-E633CEE4FE53}.Release|x86.Build.0 = Release|Win32
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Debug|x64.ActiveCfg = Debug|x64
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Debug|x64.Build.0 = Debug|x64
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Debug|x86.Build.0 = Debug|Win32
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Release|x64.ActiveCfg = Release|x64
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Release|x64.Build.0 = Release|x64
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Release|x86.ActiveCfg = Release|Win32
+		{C50FA3BD-91F3-4121-A531-F25C23E006CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
