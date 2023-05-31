@@ -5,6 +5,7 @@ Ctrl + G：快速定位到指定行
 Ctrl + Shift + A：新建项
 Ctrl + K, Ctrl + B：代码片段管理器
 Ctrl + J 或 Atl + →：智能提示
+Ctrl + Shift + f：在文件中查找（在文件中替换）
 
 工具->选项->C/C++->制表符
 

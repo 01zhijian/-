@@ -36,6 +36,18 @@
     <ClCompile Include="友元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManipulators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类型转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="异常.h">
@@ -54,6 +66,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="友元.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManipulators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="类型转换.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

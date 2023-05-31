@@ -51,9 +51,9 @@ void RunIn()
         return;
     }
 
-    ifs.good();
-    ifs.fail();
-    ifs.bad();
+    //ifs.good();
+    //ifs.fail();
+    //ifs.bad();
     ifs.clear();
 
     ifs >> name;
@@ -82,9 +82,10 @@ void Run_文件定位()
     ifs.close();
 }
 
-int main()
-{
-    RunOut();
-    RunIn();
-    return 0;
-}
+//int main()
+//{
+//    //RunOut();
+//    //RunIn();
+//    std::cout << "Hello World" << std::endl;
+//    return 0;
+//}
